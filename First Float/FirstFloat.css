@@ -163,12 +163,26 @@ p {
 .btn {
   margin-left: 40vw;
 }
-#physicalBenefits {
-font-size: 1.5rem;
-}
 .muscleRecovery {
-  background-color: rgb(7, 71, 87);
-  border: 2px 2px 2px solid white;
+  margin-left: inherit;
+  width: inherit;
+  text-align: center;
+  background: #8b03b4;
+    background: linear-gradient(to right, #8b03b4,
+    #01ecfd) no-repeat 0 0 / cover;
+    border: 2px solid white;
+}
+#muscleRecovery {
+  margin-left: 0;
+  width: 200%;
+  margin-bottom: 1rem;
+  border: 2px solid white;
+}
+hr {
+  color:white;
+}
+video {
+  width: 80vw;
 }
  @media only screen and (max-width: 600px) {
    
@@ -177,7 +191,7 @@ font-size: 1.5rem;
     height: 1000vh;;
     background-size: 160vh;
     }
-
+    
     .homeContent {
         padding-left: 20vw;
 
@@ -264,6 +278,7 @@ font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 768px) {
+  
   .Info-p {
     margin-left: 35vw;
   }
@@ -299,19 +314,21 @@ font-size: 1.5rem;
     border: 2px solid white;
   }
   .heal {
-    background-color: rgb(7, 71, 87);
+    background-color:  rgb(7, 71, 87);
     border: 2px solid white;
   }
   .Info-p {
     margin-left: 43vw;
   }
+h2 {
+  width: 80vw;
 }
 
 @media only screen and (min-width: 650px) {
   video {
     margin-bottom: 4vh;
     margin-left: 4vw;
-    width: 500px;
-    height: 350px;
+    width: 1000px;
+    height: 400px;
   }
-}
+}}
